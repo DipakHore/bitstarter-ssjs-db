@@ -221,7 +221,39 @@ $(window).load(function() {	//start after HTML, images have loaded
 </head>
 
  <body>
+<!-- AddThis Smart Layers BEGIN -->
+  <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+  <!-- ----------------------------------------- AddThis smart layers  ----------------------------------------- -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e0d9be478d8a027"></script>
+  <script type="text/javascript">
+    addthis.layers({
+      'theme' : 'transparent',
+      'share' : {
+        'position' : 'left',
+        'numPreferredServices' : 4
+      },
+      'follow' : {
+        'services' : [
+          {'service': 'facebook', 'id': '161446340717823'},
+          {'service': 'twitter', 'id': '@faber2D'},
+          {'service': 'google_follow', 'id': '111791336191928944765/posts'} 
+        ]
+      }
+    });
+  </script>
 
+  <!-- Place this tag where you want the widget to render. 
+	<div class="g-person" data-href="//plus.google.com/111791336191928944765" data-rel="author"></div>
+	-->
+<!-- Place this tag after the last widget tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+    
     <!-- Mobile-friendly navbar adapted from example. -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -232,16 +264,19 @@ $(window).load(function() {	//start after HTML, images have loaded
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
+		  </button>
           <a class="brand" href="#">Bitstarter</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li class="active">
+				<a href="#">Home</a>
+			  </li>
 			  <!--
               <li><a href="#about">About</a></li>
               <li><a href="/orders">Orders</a></li>
               <li><a href="#contact">Contact</a></li>
 			  -->
+			  <li><a href="#faq">FAQ</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -282,13 +317,14 @@ $(window).load(function() {	//start after HTML, images have loaded
 			<div id="rotating-item-wrapper">
 				<img class="rotating-item" src="http://i.imgur.com/z5JQqEL.jpg" width="380" height="800" />
 				<img class="rotating-item" src="http://i.imgur.com/ME6KhSx.jpg" width="380" height="800" />
-				<img class="rotating-item" src="http://i.imgur.com/d2zmzjt.jpg" width="380" height="800"/>
-				<img class="rotating-item" src="http://i.imgur.com/oIT7c2r.jpg" width="380" height="800" />
 				<img class="rotating-item" src="http://i.imgur.com/Q4K0diO.jpg" width="380" height="800" />
 				<img class="rotating-item" src="http://i.imgur.com/xFknksJ.jpg" width="380" height="800" />
 				<img class="rotating-item" src="http://i.imgur.com/4YggU7o.jpg" width="380" height="800" />
 				<img class="rotating-item" src="http://i.imgur.com/KG9BI7l.jpg" width="380" height="800" />
 				<img class="rotating-item" src="http://i.imgur.com/QNp3IU7.jpg" width="380" height="800" />
+				<img class="rotating-item" src="http://i.imgur.com/heItaGY.jpg" width="380" height="800" />
+				<img class="rotating-item" src="http://i.imgur.com/eBzKt6t.jpg" width="380" height="800" />
+				<img class="rotating-item" src="http://i.imgur.com/EVYjt6d.jpg" width="380" height="800" />
 			</div>
 				
 		<!-- END: Rotating images images -->
@@ -304,8 +340,10 @@ $(window).load(function() {	//start after HTML, images have loaded
       <div class="entry">
         <p>
             The Product offering is aimed at tapping into the vast emerging market of adventure tourism. It will involve live streaming of video images, delivered to Consumers sensory system.
-			For maximum impact a specific "Head Mounted Display"(HMD) device (e.g., Sony's HMD devices) will be designed, which will deliver near live audio visual effect to an individuals Visual sensory system.
-			The live streaming will be done thru Internet connected Cameras (e.g., Google's 360 degrees Trakker Camera) being carried by specialist Guides familiar with a specific terrains .
+			For maximum impact a specific "Head Mounted Display"(HMD) device (e.g., Sony's HMD devices) will be designed, which will deliver near live audio visual effect to an individual's Sensory system.
+		</p>
+		<p>	
+			The live streaming will be done thru Internet connected Cameras (e.g., Google's 360 degrees Trakker Camera) being carried by specialist Guides familiar with specific terrains in remote exotic locations around the World.
 			The content delivery could be both live and pre-recorded based on two different pricing tiers. The Streaming of the content will be done over the existing high-speed broadband network of a country.
 			The marketing of the product, will initially follow the 'On Demand' model of screening of movies as currently done by cable TV networks.			
         </p>
@@ -392,25 +430,28 @@ $(window).load(function() {	//start after HTML, images have loaded
           </div>
           <div class="row-fluid">
           <div class="span8 offset2 social">
-            <!-- AddThis Button BEGIN -->
+		  
+            <!-- AddThis Button BEGIN 
             <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
               <a class="addthis_button_preferred_1"></a>
               <a class="addthis_button_preferred_2"></a>
               <a class="addthis_button_compact"></a>
               <a class="addthis_counter addthis_bubble_style"></a>
             </div>
+			-->
 	     <script type="text/javascript">var addthis_config = 
 			{"data_track_addressbar":true};</script>
 	     <script type="text/javascript" 
  		     src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51e5f5d9549fdf9b"></script>
             <!-- AddThis Button END -->
+			
           </div>
           </div>
         </div>
         </div>
       </div>
 	  
-      <div class="row-fluid faq">
+      <div id="faq" class="row-fluid faq">
           <div class="span10 offset1">
             <h3>FAQ</h3>
             <div class="accordion" id="accordion2">
@@ -418,12 +459,15 @@ $(window).load(function() {	//start after HTML, images have loaded
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    What does FAQ stand for?
+                    How does One get on board?
                   </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    Frequently Asked Question.
+                    Simply by clicking the <b> Pre-Order </b> button. And paying as little as 0.015 Bitcoin (AUS $2.00) as token of material support.
+					Money collected will be ultimately donated to charity fund - <font color="blue">http://www.hole-in-the-wall.com</font>.
+											<b><font color="red">OR</font></b>
+							Supporting the idea by clicking any of the Social networking buttons.
                   </div>
                 </div>
               </div>
@@ -475,7 +519,8 @@ $(window).load(function() {	//start after HTML, images have loaded
           </div>
 
       </div>
-
+	  
+	
       <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
       <!-- http://creativecommons.org/licenses/ -->
       <div class="row-fluid footer">
@@ -486,7 +531,7 @@ $(window).load(function() {	//start after HTML, images have loaded
 		   </p>
         </div>
 		<div>
-			<b>Contact:</b><a href="mailto:dipakhore@gmail.com">dipakhore@gmail.com</a><BR>
+			<b>Contact:</b><a href="mailto:dipakhore@gmail.com"><font color="blue">homoFaber2@gmail.com</font></a><BR>
        </div>
       </div>
     </div>
